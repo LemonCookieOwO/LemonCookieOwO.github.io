@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: left;
+    text-shadow: 5px;
+    font-size: 2rem;
+    color: rgb(255, 116, 146);
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white;
+    z-index: 20;
+    padding: 10px;
+}
+
+nav {
+    max-width: 600px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 50px;
+    color: black;
+}
+
+.MenuH {
+    position: absolute;
+    z-index: 20;
+    top: 2.5%;
+    left: 33.5%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.MenuH>li>a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+
+}
+
+.MenuH>li:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.MenuV {
+    position: absolute;
+    z-index: 20;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.MenuH li:hover .MenuV {
+    display: block;
+}
+
+.MenuV li:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.MenuV li a {
+    display: block;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.MenuInde {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.medias {
+    position: absolute;
+    top: 1.5%;
+    left: 94%;
+    margin: auto;
+    width: 100px;
+    z-index: 20;
+    padding: 10px;
+}
+
+.return {
+    margin: 10px;
+    height: 100px;
+    position: fixed;
+    top: 45%;
+    left: 5%;
+}
+
+.arrow {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+   
+ font-family: 'Lexend Deca', sans-serif;
+ position: absolute;
+ left: 41%;
+ top : 32%;
+ font-size: 7rem;
+ color: rgb(255, 118, 255);
+ padding: 10px;
+}
+
+.mediacont{
+    background-color: rgb(238, 237, 237);
+    height: 250px;
+    width: 60px;
+    position: absolute;
+    left: 81%;
+    top: 42.5%;
+    border-radius: 5%;
+}
+
+.icon{
+position: absolute;
+left: 21%;
+top: 7%;
+
+}
+
+.Vyletmami {
+    position: absolute;
+    top: 34%;
+    left: 15%;
+    padding: 10px;
+}
+
+.Mom {   
+    height: 380px;
+    padding: 10px;
+}
+
+.Des {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    width: 40%;
+    padding: 10px;
+}
+
+.morebout{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 40%;
+    padding: 10px;
+}
+
+strong{
+    color: rgb(37, 113, 255);
+}
+
+.albumss1{
+    font-size: 20rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: coral;
+    position: absolute;
+    top: 92%;
+    left: 15%;
+    z-index: 3;
+}
+
+.albumss2{
+    font-size: 20rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(255, 200, 180);
+    position: absolute;
+    top: 93%;
+    left: 16%;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+.albumss3{
+    font-size: 20rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(255, 231, 223);
+    position: absolute;
+    top: 94%;
+    left: 17%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.cont1{
+    background: linear-gradient(#927eff, #fff896);
+    position: absolute;
+    left: 16%;
+    top: 120%;
+    padding: 10px;
+    width: 225px;
+    height: 550px;
+    border-radius: 2%;
+    z-index: 6;
+}
+
+.album1{
+    position: relative;
+    left: 2%;
+}
+
+.alinf1{
+    color: rgb(0, 79, 197);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.3rem;
+}
+
+.cont2{
+    background: linear-gradient(#ff2121, #fc821e);
+    position: absolute;
+    left: 31%;
+    top: 120%;
+    padding: 10px;
+    width: 225px;
+    height: 550px;
+    border-radius: 2%;
+    z-index: 6;
+}
+
+.album2{
+    position: relative;
+    left: 2%;
+}
+
+.alinf2{
+    color: rgb(105, 21, 0);
+    font-family: 'Lexend Deca', sans-serif;
+        font-size: 1.3rem;
+}
+
+.cont3{
+    background: linear-gradient(#f58787, #7279cf);
+    position: absolute;
+    left: 46%;
+    top: 120%;
+    padding: 10px;
+    width: 225px;
+    height: 550px;
+    border-radius: 2%;
+    z-index: 6;
+}
+
+.album3{
+    position: relative;
+    left: 2%;
+}
+
+.alinf3{
+    color: rgb(103, 0, 134);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.3rem;
+}
+
+.cont4{
+    background: linear-gradient(#311f0e, #9b815a);
+    position: absolute;
+    left: 61%;
+    top: 120%;
+    padding: 10px;
+    width: 225px;
+    height: 550px;
+    border-radius: 2%;
+    z-index: 6;
+}
+
+.album4{
+    position: relative;
+    left: 2%;
+}
+
+.alinf4{
+    color: rgb(41, 26, 15);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.3rem;
+}
+
+.cont5{
+    
+    background: linear-gradient(#3f1f47, #9198e5);
+    position: absolute;
+    left: 76%;
+    top: 120%;
+    padding: 10px;
+    width: 225px;
+    height: 550px;
+    border-radius: 2%;
+    z-index: 6;
+}
+
+.album5{
+    position: relative;
+    left: 2%;
+}
+
+.alinf5{
+    color: rgb(26, 24, 44);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.3rem;
+}
+
+.songlist1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(133, 108, 0);
+    font-size: 1.2rem;
+}
+
+.playlist1{
+    position: absolute;
+    top: 95%;
+    left: 36%;
+}
+
+.songlist2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(223, 0, 0);
+    font-size: 1.2rem;
+}
+
+.playlist2{
+    position: absolute;
+    top: 95%;
+    left: 36%;
+}
+
+.songlist3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(3, 52, 85);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 55%;
+}
+
+.playlist3{
+    position: absolute;
+    top: 95%;
+    left: 36%;
+}
+
+.songlist4{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(51, 32, 22);
+    font-size: 1.2rem;
+}
+
+.playlist4{
+    position: absolute;
+    top: 95%;
+    left: 43%;
+}
+
+.songlist4{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(51, 32, 22);
+    font-size: 1.2rem;
+}
+
+.playlist4{
+    position: absolute;
+    top: 95%;
+    left: 43%;
+}
+
+.songlist5{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(73, 30, 78);
+    font-size: 1.2rem;
+}
+
+.playlist5{
+    position: absolute;
+    top: 95%;
+    left: 43%;
+}
