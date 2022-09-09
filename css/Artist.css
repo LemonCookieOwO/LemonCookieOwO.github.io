@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
@@ -95,8 +95,8 @@ nav {
     margin: 10px;
     height: 250px;
     position: absolute;
-    top: 15%;
-    left: 10%;
+    top: 20%;
+    left: 15%;
 }
 
 .img1 {
@@ -115,8 +115,8 @@ nav {
     margin: 10px;
     height: 250px;
     position: absolute;
-    top: 15%;
-    left: 28%;
+    top: 20%;
+    left: 33%;
 }
 
 .img2 {
@@ -129,6 +129,97 @@ nav {
 .img2:hover {
     transform: scale(1.2);
     opacity: 0.60;
+}
+
+.Artist3 {
+    margin: 10px;
+    height: 250px;
+    position: absolute;
+    top: 20%;
+    left: 51%;
+}
+
+.img3 {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.img3:hover {
+    transform: scale(1.2);
+    opacity: 0.60;
+}
+
+.Artist4 {
+    margin: 10px;
+    height: 250px;
+    position: absolute;
+    top: 20%;
+    left: 69%;
+}
+
+.img4{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.img4:hover {
+    transform: scale(1.2);
+    opacity: 0.60;
+}
+.FivethOne{
+    margin: 10px;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    transition: 0.5s;
+}
+
+.FivethOne:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+
+.six{
+    margin: 10px;
+    position: absolute;
+    top: 55%;
+    left: 33%;
+    transition: 0.5s;
+}
+
+.six:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+
+.seven{
+    margin: 10px;
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    transition: 0.5s;
+}
+
+.seven:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+
+.eight{
+    margin: 10px;
+    position: absolute;
+    top: 55%;
+    left: 69%;
+    transition: 0.5s;
+}
+
+.eight:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
 }
 
 

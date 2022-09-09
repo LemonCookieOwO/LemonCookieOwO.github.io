@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
@@ -120,21 +120,54 @@ h2 {
 }
 
 .mediacont{
-    background-color: rgb(238, 237, 237);
+    background-color: rgba(65, 65, 65, 0.11);
     height: 250px;
     width: 60px;
     position: absolute;
     left: 81%;
     top: 42.5%;
-    border-radius: 5%;
+    border-radius: 0.6rem;
 }
 
-.icon{
+.icon1{
 position: absolute;
 left: 21%;
-top: 7%;
-
+top: 5%;
 }
+
+.icon1:hover{
+transform: scale(1.2);
+}
+
+.icon2{
+    position: absolute;
+    left: 21%;
+    top: 30%;
+    }
+    
+    .icon2:hover{
+    transform: scale(1.2);
+    }
+
+    .icon3{
+        position: absolute;
+        left: 21%;
+        top: 55%;
+        }
+        
+        .icon3:hover{
+        transform: scale(1.2);
+        }
+
+        .icon4{
+            position: absolute;
+            left: 21%;
+            top: 80%;
+            }
+            
+            .icon4:hover{
+            transform: scale(1.2);
+            }
 
 .Vyletmami {
     position: absolute;
@@ -324,8 +357,32 @@ strong{
 
 .playlist1{
     position: absolute;
-    top: 95%;
-    left: 36%;
+    top: 94%;
+    left: 34%;
+    height: 30px;
+    width: 65px;
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 0.5rem;
+}
+
+.yt1{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.yt1:hover{
+    transform: scale(1.2);
+}
+
+.sp1{
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+.sp1:hover{
+    transform: scale(1.2);
 }
 
 .songlist2{
@@ -336,8 +393,32 @@ strong{
 
 .playlist2{
     position: absolute;
-    top: 95%;
-    left: 36%;
+    top: 94%;
+    left: 32%;
+    height: 30px;
+    width: 65px;
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 0.5rem;
+}
+
+.yt2{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.yt2:hover{
+    transform: scale(1.2);
+}
+
+.sp2{
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+.sp2:hover{
+    transform: scale(1.2);
 }
 
 .songlist3{
@@ -350,8 +431,32 @@ strong{
 
 .playlist3{
     position: absolute;
-    top: 95%;
-    left: 36%;
+    top: 94%;
+    left: 34%;
+    height: 30px;
+    width: 65px;
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 0.5rem;
+}
+
+.yt3{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.yt3:hover{
+    transform: scale(1.2);
+}
+
+.sp3{
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+.sp3:hover{
+    transform: scale(1.2);
 }
 
 .songlist4{
@@ -374,8 +479,22 @@ strong{
 
 .playlist4{
     position: absolute;
-    top: 95%;
-    left: 43%;
+    top: 94%;
+    left: 34%;
+    height: 30px;
+    width: 65px;
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 0.5rem;
+}
+
+.sp4{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+.sp4:hover{
+    transform: scale(1.2);
 }
 
 .songlist5{
@@ -386,6 +505,20 @@ strong{
 
 .playlist5{
     position: absolute;
-    top: 95%;
-    left: 43%;
+    top: 94%;
+    left: 34%;
+    height: 30px;
+    width: 65px;
+    background: rgba(0, 0, 0, 0.24);
+    border-radius: 0.5rem;
+}
+
+.sp5{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+.sp5:hover{
+    transform: scale(1.2);
 }

@@ -1,0 +1,605 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: left;
+    text-shadow: 5px;
+    font-size: 2rem;
+    color: rgb(255, 116, 146);
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white;
+    z-index: 20;
+    padding: 10px;
+}
+
+nav {
+    max-width: 600px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 50px;
+    color: black;
+}
+
+.MenuH {
+    position: absolute;
+    z-index: 20;
+    top: 2.5%;
+    left: 33.5%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.MenuH>li>a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+
+}
+
+.MenuH>li:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.MenuV {
+    position: absolute;
+    z-index: 20;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.MenuH li:hover .MenuV {
+    display: block;
+}
+
+.MenuV li:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.MenuV li a {
+    display: block;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
+
+.MenuInde {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.medias {
+    position: absolute;
+    top: 1.5%;
+    left: 94%;
+    margin: auto;
+    width: 100px;
+    z-index: 20;
+    padding: 10px;
+}
+
+.return {
+    margin: 10px;
+    height: 100px;
+    position: fixed;
+    top: 45%;
+    left: 5%;
+}
+
+.arrow {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 5rem;
+    color: rgb(255, 230, 149);
+    z-index: 2;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 30.5%;
+    left: 30.5%;
+    font-size: 5rem;
+    color: rgb(51, 44, 20);
+    rotate: 1deg;
+    z-index: 1;
+}
+
+.photoartist {
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    rotate: 2deg;
+}
+
+.mediacont{
+    position: absolute;
+    rotate: 2deg;
+    border-radius: 0.5rem;
+    top: 40%;
+    left: 89%;
+    width: 45px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ytj{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.ytj:hover{
+    transform: scale(1.1);
+}
+
+.spj{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+
+.spj:hover{
+    transform: scale(1.1);
+}
+
+.ttj{
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+
+.ttj:hover{
+    transform: scale(1.1);
+}
+
+.apj{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.apj:hover{
+    transform: scale(1.1);
+}
+
+strong {
+    color: rgb(163, 89, 36);
+}
+
+.txt1 {
+    position: absolute;
+    width: 800px;
+    top: 45%;
+    left: 20%;
+}
+
+.txt2 {
+    position: absolute;
+    width: 800px;
+    top: 60%;
+    left: 20%;
+}
+
+.albums {
+    font-family: 'Lexend Deca', sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    font-size: 6rem;
+    z-index: 4;
+    color: rgb(248, 185, 107);
+}
+
+.albumsb {
+    font-family: 'Lexend Deca', sans-serif;
+    position: absolute;
+    top: 120.2%;
+    left: 40.2%;
+    font-size: 6rem;
+    z-index: 3;
+    rotate: -1deg;
+    color: rgb(148, 99, 40);
+}
+
+.albumsb2 {
+    font-family: 'Lexend Deca', sans-serif;
+    position: absolute;
+    top: 120.5%;
+    left: 40.5%;
+    font-size: 6rem;
+    z-index: 2;
+    rotate: -2deg;
+    color: rgb(87, 57, 26);
+}
+
+.cardsong1{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 140%;
+  left: 15%;
+  background: linear-gradient( rgba(56,117,101), rgb(9, 37, 27));
+  border-radius: 2rem;
+}
+
+.albumpp{
+ position: absolute;
+ top: 5%;
+ left: 5%;
+}
+
+.albumnp{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-size: 4.5rem;
+    color: rgba(255,254,235);
+}
+
+.linksp{
+    background: rgba(0, 0, 0,0.2);
+    position: absolute;
+    top: 5%;
+    left: 102%;
+    height: 100px;
+    width: 50px;
+    border-radius: 0.5rem;
+}
+
+.yt{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+.yt:hover{
+    transform: scale(1.2);
+}
+
+.sp{
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+
+.sp:hover{
+    transform: scale(1.2);
+}
+
+
+.songp1{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 2rem;
+    color: rgba(255,254,235);
+    rotate: 2deg;
+}
+
+.songp2{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-size: 2rem;
+    color: rgba(255,254,235);
+    rotate: -2deg;
+}
+
+.songp3{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 2rem;
+    color: rgba(255,254,235);
+    rotate: 2deg;
+}
+
+.songp4{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: 2rem;
+    color: rgba(255,254,235);
+    rotate: -2deg;
+}
+
+.songp5{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    font-size: 2rem;
+    color: rgba(255,254,235);
+    rotate: -2deg;
+}
+
+.songp6{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    font-size: 2rem;
+    color: rgba(255,254,235);
+    rotate: 2deg;
+}
+
+.songp7{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    font-size: 2rem;
+    color: rgba(255,254,235);
+    rotate: -2deg;
+}
+
+.songp8{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    font-size: 2rem;
+    color: rgba(255,254,235);
+    rotate: 2deg;
+}
+
+.cardsong2{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 190%;
+    left: 56%;
+    background: linear-gradient( rgb(248, 247, 204), rgb(12, 12, 12));
+    border-radius: 2rem;
+  }
+
+  .linksm{
+    background: rgba(0, 0, 0,0.2);
+    position: absolute;
+    top: 45%;
+    left: -10%;
+    height: 100px;
+    width: 50px;
+    border-radius: 0.5rem;
+}
+  
+  .albumpm{
+   position: absolute;
+   top: 5%;
+   left: 62%;
+  }
+  
+  .albumnm{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 15%;
+      left: 5%;
+      font-size: 4.5rem;
+      color: rgba(255,254,235);
+  }
+  
+  .songm1{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      font-size: 2rem;
+      color: rgba(255,254,235);
+      rotate: 2deg;
+  }
+  
+  .songm2{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 60%;
+      left: 10%;
+      font-size: 2rem;
+      color: rgba(255,254,235);
+      rotate: -2deg;
+  }
+  
+  .songm3{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 70%;
+      left: 10%;
+      font-size: 2rem;
+      color: rgba(255,254,235);
+      rotate: 2deg;
+  }
+  
+  .songm4{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 80%;
+      left: 10%;
+      font-size: 2rem;
+      color: rgba(255,254,235);
+      rotate: -2deg;
+  }
+  
+  .songm5{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 45%;
+      left: 55%;
+      font-size: 2rem;
+      color: rgba(255,254,235);
+      rotate: -2deg;
+  }
+  
+  .songm6{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 60%;
+      left: 55%;
+      font-size: 2rem;
+      color: rgba(255,254,235);
+      rotate: 2deg;
+  }
+  
+  .songm7{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 75%;
+      left: 55%;
+      font-size: 2rem;
+      color: rgba(255,254,235);
+      rotate: -2deg;
+  }
+  
+  .songm8{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 85%;
+      left: 55%;
+      font-size: 2rem;
+      color: rgba(255,254,235);
+      rotate: 2deg;
+  }
+
+  .cardsong3{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 230%;
+    left: 15%;
+    background: linear-gradient( rgba(71,62,45), rgba(64,31,22));
+    border-radius: 2rem;
+  }
+
+  .linksh{
+    background: rgba(0, 0, 0,0.2);
+    position: absolute;
+    top: 80%;
+    left: 102%;
+    height: 100px;
+    width: 50px;
+    border-radius: 0.5rem;
+}
+  
+  .albumph{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+  }
+  
+  .albumnh{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 15%;
+      left: 40%;
+      font-size: 6rem;
+      color: rgba(238,219,153);
+  }
+  
+  .songh1{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      font-size: 2rem;
+      color: rgba(238,219,153);
+      rotate: 2deg;
+  }
+  
+  .songh2{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 60%;
+      left: 10%;
+      font-size: 2rem;
+      color: rgba(238,219,153);
+      rotate: -2deg;
+  }
+  
+  .songh3{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 70%;
+      left: 5%;
+      font-size: 2rem;
+      color: rgba(238,219,153);
+      rotate: 2deg;
+  }
+  
+  .songh4{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 80%;
+      left: 10%;
+      font-size: 2rem;
+      color: rgba(238,219,153);
+      rotate: -2deg;
+  }
+  
+  .songh5{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 55%;
+      left: 55%;
+      font-size: 2rem;
+      color: rgba(238,219,153);
+      rotate: -2deg;
+  }
+  
+  .songh6{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 65%;
+      left: 55%;
+      font-size: 2rem;
+      color: rgba(238,219,153);
+      rotate: 2deg;
+  }
+  
+  .songh7{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 75%;
+      left: 55%;
+      font-size: 2rem;
+      color: rgba(238,219,153);
+      rotate: -2deg;
+  }
+  
+  .songh8{
+      font-family: 'Josefin Sans', sans-serif;
+      position: absolute;
+      top: 85%;
+      left: 55%;
+      font-size: 2rem;
+      color: rgba(238,219,153);
+      rotate: 2deg;
+  }
