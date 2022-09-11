@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+        background-color: rgb(255, 255, 255);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    h1 {
+        text-align: left;
+        text-shadow: 5px;
+        font-size: 2rem;
+        color: rgb(255, 116, 146);
+        position: absolute;
+        left: 2%;
+        top: 1%;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Lexend Deca', sans-serif;
+        z-index: 20;
+        padding: 10px;
+    }
+    
+    .MenuInde {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    nav {
+        max-width: 600px;
+        margin: auto;
+        font-size: 15px;
+        margin-top: 50px;
+        color: black;
+    }
+    
+    .MenuH {
+        position: absolute;
+        z-index: 20;
+        top: 2.5%;
+        left: 33.5%;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+    }
+    
+    .MenuH>li>a {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+    
+    }
+    
+    .MenuH>li:hover {
+        background-color:rgb(228, 228, 228);
+    }
+    
+    .MenuV {
+        position: absolute;
+        z-index: 20;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .MenuH li:hover .MenuV {
+        display: block;
+    }
+    
+    .MenuV li:hover {
+        background-color:rgb(228, 228, 228);
+    }
+    
+    .MenuV li a {
+        display: block;
+        padding: 15px 15px 15px 20px;
+        text-decoration: none;
+    
+    }
+    
+    .medias {
+        position: absolute;
+        top: 1.5%;
+        left: 94%;
+        margin: auto;
+        width: 100px;
+        z-index: 20;
+        padding: 10px;
+    }
+
+    strong{
+        color: rgb(132, 140, 255);
+    }
+
+.title1{
+    font-family: 'Bree Serif', serif;
+    font-size: 6rem;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: rgb(139, 236, 253);
+    z-index: 5;
+}
+
+.title2{
+    font-family: 'Bree Serif', serif;
+    font-size: 6rem;
+    position: absolute;
+    top: 30.5%;
+    left: 25.5%;
+    color: rgb(78, 207, 216);
+    z-index: 4;
+}
+
+.title3{
+    font-family: 'Bree Serif', serif;
+    font-size: 6rem;
+    position: absolute;
+    top: 31%;
+    left: 26%;
+    color: rgb(76, 149, 167);
+    z-index: 3;
+}
+
+.title4{
+    font-family: 'Bree Serif', serif;
+    font-size: 6rem;
+    position: absolute;
+    top: 31.5%;
+    left: 26.5%;
+    color: rgb(72, 112, 139);
+    z-index: 2;
+}
+
+.title5{
+    font-family: 'Bree Serif', serif;
+    font-size: 6rem;
+    position: absolute;
+    top: 32%;
+    left: 27%;
+    color: rgb(66, 86, 116);
+    z-index: 1;
+}
+
+.txt1{
+    position: absolute;
+    top: 58%;
+    left: 24%;
+    width: 900px;
+    padding: 20px;
+}
+
+.txt2{
+    position: absolute;
+    top: 75%;
+    left: 28%;
+    width: 900px;
+    padding: 20px;
+}
+
+.txt3{
+    position: absolute;
+    top: 95%;
+    left: 24%;
+    width: 900px;
+    padding: 20px;
+}
+
+.telegram{
+    position: absolute;
+    top: 70.5%;
+    left: 39.5%;
+}
